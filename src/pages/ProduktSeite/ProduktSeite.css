@@ -1,0 +1,27 @@
+.produkt-seite {
+    display: flex;
+}
+.produkt-seite img {
+    width: 100px;
+    margin-bottom: 20px 10px;
+}
+.produkt-seite h1 {
+    margin: 5px 10px;
+    font-size: 40px;
+}
+.produkt-seite p:nth-of-type(1) {
+    color: orange;
+    margin: 5px 10px;
+}
+.produkt-seite h3 {
+    margin: 5px 10px;
+}
+.produkt-seite p:nth-of-type(2) {
+margin: 10px 10px;
+}
+.back {
+    margin-bottom: 100px;
+    font-size: 20px;
+    font-weight: bold;
+
+}

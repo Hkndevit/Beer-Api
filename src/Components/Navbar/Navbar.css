@@ -1,0 +1,23 @@
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.navbar nav {
+    position: relative;
+    background-color: #FFCA41;
+    justify-content: center;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+}
+
+.navbar img {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 8vh;
+}

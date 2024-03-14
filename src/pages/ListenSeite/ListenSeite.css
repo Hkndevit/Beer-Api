@@ -1,0 +1,33 @@
+.liste {
+    display: flex;
+    flex-direction: column;
+}
+.liste img {
+width: 50px;
+}
+.title-list{
+    font-size: 20px;
+}
+.tagline {
+    color: #FFCA41;
+    font-size: 15px;
+}
+.left {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+    width: 20vw;
+}
+.right {
+    width: 70vw;
+    float: right;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 30px;
+}

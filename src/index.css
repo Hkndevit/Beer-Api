@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: roboto;
+    src: url(/src/assets/Fonts/RobotoSlab-VariableFont_wght.ttf);
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-family: roboto;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 30px;
+    border-radius: 20px;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background-color: #FFCA41;
+    color: white;
+}
+.button:hover {
+    background-color: orangered;
+}
